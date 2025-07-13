@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj": {}
+    "C:\\Users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj": {}
   },
   "projects": {
-    "C:\\users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj": {
+    "C:\\Users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj",
         "projectName": "RpgArena.Core",
-        "projectPath": "C:\\users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj",
+        "projectPath": "C:\\Users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\RpgArena.Core.csproj",
         "packagesPath": "C:\\Users\\Zack\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\obj\\",
+        "outputPath": "C:\\Users\\Zack\\Documents\\Repositories\\RpgArena\\RpgArena.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zack\\AppData\\Roaming\\NuGet\\NuGet.Config"

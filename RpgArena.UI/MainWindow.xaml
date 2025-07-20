@@ -1,12 +1,46 @@
-﻿<Window x:Class="RpgArena.MainWindow"
+﻿<Window x:Class="RpgArena.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RpgArena"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="RPG Arena" Height="450" Width="300"
+        WindowStartupLocation="CenterScreen">
 
-    </Grid>
+  <Grid Background="{DynamicResource WindowBackgroundBrush}">
+    <StackPanel
+      HorizontalAlignment="Center"
+      VerticalAlignment="Center"
+      Width="200">
+
+      <TextBlock
+        Text="Main Menu"
+        FontSize="24"
+        FontWeight="Bold"
+        TextAlignment="Center"
+        Margin="0,0,0,20"/>
+
+      <Button Content="Continue Last Campaign"
+              Height="40"
+              Margin="0,0,0,12"
+              Click="ContinueButton_Click"/>
+
+      <Button Content="New Campaign"
+              Height="40"
+              Margin="0,0,0,12"
+              Click="NewCampaignButton_Click"/>
+
+      <Button Content="Characters"
+              Height="40"
+              Margin="0,0,0,12"
+              Click="CharactersButton_Click"/>
+
+      <Button Content="Settings"
+              Height="40"
+              Margin="0,0,0,12"
+              Click="SettingsButton_Click"/>
+
+      <Button Content="Help &amp; Tutorials"
+              Height="40"
+              Click="HelpButton_Click"/>
+
+    </StackPanel>
+  </Grid>
 </Window>
